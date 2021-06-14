@@ -80,7 +80,9 @@ h1 {
 }
 
 h2 {
-  font-size: 36px; }
+  font-size: 36px; 
+  text-shadow: 1px 1px #000000;
+}
 
 h3 {
   font-size: 28px; }
@@ -146,9 +148,9 @@ p {
   background-color: #FFFF00;
   text-transform: uppercase; }
   .main-btn:hover {
-    background-color: #baba00;
-    color: #baba00;
-    border-color: #baba00; }
+    background-color: #2DA279;
+    color: #FFFF00;
+    border-color: #2DA279; }
   .main-btn.main-btn-2 {
     background-color: transparent;
     color: #2DA279;
@@ -157,9 +159,9 @@ p {
     -moz-box-shadow: none;
     box-shadow: none; }
     .main-btn.main-btn-2:hover {
-      background-color: #baba00;
-      color: #2DA279;
-      border-color: #baba00; }
+      background-color: #2DA279;
+      color: #FFFF00;
+      border-color: #2DA279; }
 
 /*===== All Section Title Style =====*/
 .section-title .title {
@@ -237,13 +239,13 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #754ef9 #754ef9 #ddd;
+      border-color: #2DA279 #2DA279 #FFFF00;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader_34 .ytp-spinner-left .ytp-spinner-circle {
       left: 0;
       right: -100%;
-      border-right-color: #ddd;
+      border-right-color: #FFFF00;
       -webkit-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
       -moz-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
       -o-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -251,7 +253,7 @@ p {
     .preloader .loader_34 .ytp-spinner-right .ytp-spinner-circle {
       left: -100%;
       right: 0;
-      border-left-color: #ddd;
+      border-left-color: #FFFF00;
       -webkit-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
       -moz-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
       -o-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -609,7 +611,7 @@ p {
       left: 40% !important; }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-three img {
-          width: 100px; } }
+          top: 28px !important;} }
     .header-content .header-shape.shape-fore {
       top: 28px !important;
       right: 7.6% !important;
@@ -650,7 +652,7 @@ p {
           bottom: 25px !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-seven img {
-          width: 100px; } }
+          } }
     .header-content .header-shape.shape-eight {
       left: 90px !important;
       bottom: 140px !important;
@@ -661,7 +663,7 @@ p {
           bottom: 70px !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-eight img {
-          width: 100px; } }
+         } }
     .header-content .header-shape.shape-nine {
       left: 50% !important;
       -webkit-transform: translateX(-50%);
@@ -689,7 +691,7 @@ p {
           bottom: 140px !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-ten img {
-          width: 100px; } }
+          } }
 
 .header-content-right {
   position: relative; }
@@ -1257,7 +1259,7 @@ p {
 .contact-box {
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: 30px 35px;
+  padding: 15px 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1279,9 +1281,9 @@ p {
       font-weight: 600;
       padding-bottom: 15px; }
   .contact-box:hover {
-    -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-    -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-    box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
+    -webkit-box-shadow: 0px 0px 21px 0px #ffff0091;
+    -moz-box-shadow: 0px 0px 21px 0px #ffff0091;
+    box-shadow: 0px 0px 21px 0px #ffff0091; }
 
 p.form-message.success, p.form-message.error {
   font-size: 16px;
@@ -1335,7 +1337,7 @@ p.form-message.success, p.form-message.error {
        9.FOOTER css 
 ===========================*/
 .footer-widget {
-  background-color: #152136; }
+  background-color: #FFFF00; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-widget {
       padding-top: 100px;
@@ -1346,8 +1348,8 @@ p.form-message.success, p.form-message.error {
       padding-bottom: 80px; } }
 
 .footer-content p {
-  color: #fff;
-  margin-top: 35px; }
+  color: #3f68a6;
+  margin-top: 10px; }
 .footer-content ul {
   margin-top: 35px; }
   .footer-content ul li {
@@ -1395,8 +1397,8 @@ p.form-message.success, p.form-message.error {
   height: 50px;
   line-height: 46px;
   border-radius: 50%;
-  border: 2px solid #586376;
-  background-color: #152136;
+  border: 2px solid #1c2940;
+  background-color: #1c2940;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1407,8 +1409,8 @@ p.form-message.success, p.form-message.error {
   display: none; }
   .back-to-top:hover {
     color: #fff;
-    background-color: #754ef9;
-    border-color: #754ef9; }
+    background-color: #2DA279;
+    border-color: #2DA279; }
 
 /*===========================
       10.PAGE BANNER css 
