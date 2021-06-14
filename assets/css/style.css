@@ -601,17 +601,18 @@ p {
         .header-content .header-shape.shape-one img {
           width: 40px; } }
     .header-content .header-shape.shape-tow {
-      top: -18px !important;
+      top: 20px !important;
       left: 20% !important; }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-tow img {
           width: 40px; } }
     .header-content .header-shape.shape-three {
-      top: 0 !important;
+      top: 100px !important;
       left: 40% !important; }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-three img {
-          top: 28px !important;} }
+          bottom: 150px !important;
+          left: 40% !important;} }
     .header-content .header-shape.shape-fore {
       top: 28px !important;
       right: 7.6% !important;
@@ -626,13 +627,13 @@ p {
       top: auto !important; }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-five {
-          right: 20px !important;
+          right: px !important;
           bottom: 48% !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-five img {
           width: 40px; } }
     .header-content .header-shape.shape-six {
-      top: 44% !important;
+      top: 25% !important;
       left: 13% !important;
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
@@ -648,11 +649,11 @@ p {
       top: auto !important; }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-seven {
-          left: 15px !important;
-          bottom: 25px !important; } }
+          left: 120px !important;
+          bottom: 120px !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-seven img {
-          } }
+          width: 70px;} }
     .header-content .header-shape.shape-eight {
       left: 90px !important;
       bottom: 140px !important;
@@ -679,7 +680,7 @@ p {
           bottom: 20px !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-nine img {
-          width: 100px; } }
+           } }
     .header-content .header-shape.shape-ten {
       right: 30px !important;
       bottom: 5px !important;
@@ -687,7 +688,7 @@ p {
       top: auto !important; }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-ten {
-          right: 0px !important;
+          right: 20px !important;
           bottom: 140px !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-ten img {
@@ -770,13 +771,13 @@ p {
       .header-social .header-social-icon ul li:first-child {
         margin-left: 0; }
       .header-social .header-social-icon ul li a {
-        color: #2da279a6;
+        color: #2DA279;
         font-size: 20px;
         width: 40px;
         height: 40px;
         line-height: 40px;
         border-radius: 50%;
-        border: 1px solid #ccc;
+        border: 1px solid #2DA279;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
         -ms-transition: all 0.3s ease-out 0s;
@@ -784,9 +785,9 @@ p {
         transition: all 0.3s ease-out 0s;
         text-align: center; }
         .header-social .header-social-icon ul li a:hover {
-          color: #fff;
-          background-color: #2DA279;
-          border-color: #2DA279; }
+          color: #2DA279;
+          background-color: #FFFF00;
+          border-color: #FFFF00; }
 
 /*===========================
         3.ABOUT css 
